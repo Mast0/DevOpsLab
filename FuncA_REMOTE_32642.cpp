@@ -9,6 +9,6 @@ double FuncA::calculateFuncA(int n) {
         double term = pow(-1, i) * pow(x, 2 * i + 1) / (2 * i + 1);
         sum += term;
     }
-
+    
     return sum;
 }
